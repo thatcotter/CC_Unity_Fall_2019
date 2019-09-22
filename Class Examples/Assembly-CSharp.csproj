@@ -2,8 +2,9 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.2f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
-    <CscToolExe>unity_csc.sh</CscToolExe>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Week3\Scripts\DrawLines.cs" />
      <Compile Include="Assets\Week4\Scripts\Launch.cs" />
      <Compile Include="Assets\Week4\Scripts\RBWallSpawner.cs" />
+     <Compile Include="Assets\Week5\Graph.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/andrewcotter/Documents/GitHub/CC_Unity_Fall_2019/Class Examples/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
