@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Week3/03_Vectors.unity
+- path: Assets/Week5/05_Sin&Cos.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
