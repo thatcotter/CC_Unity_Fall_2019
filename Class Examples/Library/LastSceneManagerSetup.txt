@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Week5/05_Sin&Cos.unity
+- path: Assets/Week8/08_Attract+Repel.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

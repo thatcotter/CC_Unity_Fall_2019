@@ -24,6 +24,11 @@
           <e p="Graph.cs" t="Include" />
           <e p="Graph2.cs" t="Include" />
         </e>
+        <e p="Week8+9" t="Include">
+          <e p="FollowMouse.cs" t="Include" />
+          <e p="SeekerBehavior.cs" t="Include" />
+          <e p="SpawnSeekers.cs" t="Include" />
+        </e>
       </e>
       <e p="Class Examples.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

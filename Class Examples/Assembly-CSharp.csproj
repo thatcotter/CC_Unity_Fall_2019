@@ -61,6 +61,10 @@
      <Compile Include="Assets\Week4\Scripts\Launch.cs" />
      <Compile Include="Assets\Week4\Scripts\RBWallSpawner.cs" />
      <Compile Include="Assets\Week5\Graph.cs" />
+     <Compile Include="Assets\Week5\Graph2.cs" />
+     <Compile Include="Assets\Week8+9\FollowMouse.cs" />
+     <Compile Include="Assets\Week8+9\SeekerBehavior.cs" />
+     <Compile Include="Assets\Week8+9\SpawnSeekers.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/andrewcotter/Documents/GitHub/CC_Unity_Fall_2019/Class Examples/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
