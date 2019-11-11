@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Week8/08_Attract+Repel.unity
+- path: Assets/Week12/12_Automata.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

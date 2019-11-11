@@ -2,9 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
-    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
-    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
-    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <CscToolPath>/Applications/Unity/Hub/Editor/2019.2.2f1/Unity.app/Contents/Tools/RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.sh</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -57,6 +56,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Week1+2\Scripts\SpiroRotate.cs" />
+     <Compile Include="Assets\Week11\BoidBehavior.cs" />
+     <Compile Include="Assets\Week11\BoidController.cs" />
+     <Compile Include="Assets\Week11\NoiseMovement.cs" />
+     <Compile Include="Assets\Week12\CellularAutomata.cs" />
+     <Compile Include="Assets\Week12\FractalPyramid.cs" />
      <Compile Include="Assets\Week3\Scripts\DrawLines.cs" />
      <Compile Include="Assets\Week4\Scripts\Launch.cs" />
      <Compile Include="Assets\Week4\Scripts\RBWallSpawner.cs" />
